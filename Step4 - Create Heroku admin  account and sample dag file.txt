@@ -4,7 +4,12 @@
 
      heroku run bash -a heroku-airflow
      
-     airflow users create -r Admin -u admin -e arboiscodemedia@gmail.com -f Ricardo -l Arbois -p heroku2021
+     airflow users create \
+          --username admin \
+          --firstname Joseph\
+          --lastname Olaide\
+          --role Admin \
+          --email josepholaide10@gmail.com
 
 2. exit bash
    
